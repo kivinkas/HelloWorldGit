@@ -9,6 +9,6 @@ public class Main {
         System.out.println("i + 1 = " + i);
         for (int j=0; j<10; j++)
             i = i+j;
-
+        System.out.println("i = " + i);
     }
 }
