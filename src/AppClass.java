@@ -15,7 +15,11 @@ public class AppClass {
     }
 
     public static void main(String[] args) {
-        AppClass ac = new AppClass(args[0]);
-        System.out.println(ac.getNameApp());
+
+        if (args.length>0) {
+            AppClass ac = new AppClass(args[0]);
+            System.out.println(ac.getNameApp());
+        }
+        else System.out.println("There is no parameter!");
     }
 }
