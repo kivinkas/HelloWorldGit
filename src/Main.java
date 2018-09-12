@@ -10,5 +10,8 @@ public class Main {
         for (int j=0; j<10; j++)
             i = i+j;
         System.out.println("i = " + i);
+
+        TestClassNew t = new TestClassNew("MyTestClass");
+        System.out.println(t.getName());
     }
 }
